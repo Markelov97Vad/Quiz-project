@@ -24,7 +24,6 @@ function App() {
     <div className="App">
       { step !== questions.length ?
         <Game step={step} question={question} handleClick={handleChangeClick} /> : <Result correct={correct}/>}
-      {/* <Result /> */}
     </div>
   );
 }
